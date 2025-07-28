@@ -1,0 +1,17 @@
+
+/* Firefighter Envision Controller Skin */
+.controller {
+  position: relative;
+  width: 1000px;
+  height: 1000px;
+  background: url('controller.png') no-repeat center center;
+  background-size: contain;
+}
+
+.button,
+.trigger,
+.stick,
+.dpad,
+.bumper {
+  display: none;
+}
