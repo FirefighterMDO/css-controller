@@ -1,5 +1,4 @@
 
-/* Firefighter Envision Controller Skin */
 .controller {
   position: relative;
   width: 1000px;
@@ -8,10 +7,782 @@
   background-size: contain;
 }
 
-.button,
-.trigger,
-.stick,
-.dpad,
-.bumper {
+.button-a-zone-0 {
+  position: absolute;
+  left: 700px;
+  top: 350px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
   display: none;
+}
+
+.pressed .button-a-zone-0 {
+  display: block;
+}
+
+.button-a-zone-1 {
+  position: absolute;
+  left: 750px;
+  top: 350px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .button-a-zone-1 {
+  display: block;
+}
+
+.button-a-zone-2 {
+  position: absolute;
+  left: 700px;
+  top: 400px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .button-a-zone-2 {
+  display: block;
+}
+
+.button-a-zone-3 {
+  position: absolute;
+  left: 750px;
+  top: 400px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .button-a-zone-3 {
+  display: block;
+}
+
+.button-b-zone-0 {
+  position: absolute;
+  left: 750px;
+  top: 300px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .button-b-zone-0 {
+  display: block;
+}
+
+.button-b-zone-1 {
+  position: absolute;
+  left: 800px;
+  top: 300px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .button-b-zone-1 {
+  display: block;
+}
+
+.button-b-zone-2 {
+  position: absolute;
+  left: 750px;
+  top: 350px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .button-b-zone-2 {
+  display: block;
+}
+
+.button-b-zone-3 {
+  position: absolute;
+  left: 800px;
+  top: 350px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .button-b-zone-3 {
+  display: block;
+}
+
+.button-x-zone-0 {
+  position: absolute;
+  left: 650px;
+  top: 300px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .button-x-zone-0 {
+  display: block;
+}
+
+.button-x-zone-1 {
+  position: absolute;
+  left: 700px;
+  top: 300px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .button-x-zone-1 {
+  display: block;
+}
+
+.button-x-zone-2 {
+  position: absolute;
+  left: 650px;
+  top: 350px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .button-x-zone-2 {
+  display: block;
+}
+
+.button-x-zone-3 {
+  position: absolute;
+  left: 700px;
+  top: 350px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .button-x-zone-3 {
+  display: block;
+}
+
+.button-y-zone-0 {
+  position: absolute;
+  left: 700px;
+  top: 250px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .button-y-zone-0 {
+  display: block;
+}
+
+.button-y-zone-1 {
+  position: absolute;
+  left: 750px;
+  top: 250px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .button-y-zone-1 {
+  display: block;
+}
+
+.button-y-zone-2 {
+  position: absolute;
+  left: 700px;
+  top: 300px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .button-y-zone-2 {
+  display: block;
+}
+
+.button-y-zone-3 {
+  position: absolute;
+  left: 750px;
+  top: 300px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .button-y-zone-3 {
+  display: block;
+}
+
+.dpad-up-zone-0 {
+  position: absolute;
+  left: 200px;
+  top: 300px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .dpad-up-zone-0 {
+  display: block;
+}
+
+.dpad-up-zone-1 {
+  position: absolute;
+  left: 250px;
+  top: 300px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .dpad-up-zone-1 {
+  display: block;
+}
+
+.dpad-down-zone-0 {
+  position: absolute;
+  left: 200px;
+  top: 400px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .dpad-down-zone-0 {
+  display: block;
+}
+
+.dpad-down-zone-1 {
+  position: absolute;
+  left: 250px;
+  top: 400px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .dpad-down-zone-1 {
+  display: block;
+}
+
+.dpad-right-zone-0 {
+  position: absolute;
+  left: 300px;
+  top: 300px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .dpad-right-zone-0 {
+  display: block;
+}
+
+.dpad-right-zone-1 {
+  position: absolute;
+  left: 300px;
+  top: 350px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .dpad-right-zone-1 {
+  display: block;
+}
+
+.dpad-left-zone-0 {
+  position: absolute;
+  left: 200px;
+  top: 300px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .dpad-left-zone-0 {
+  display: block;
+}
+
+.dpad-left-zone-1 {
+  position: absolute;
+  left: 200px;
+  top: 350px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .dpad-left-zone-1 {
+  display: block;
+}
+
+.stick-left-zone-0 {
+  position: absolute;
+  left: 300px;
+  top: 400px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .stick-left-zone-0 {
+  display: block;
+}
+
+.stick-left-zone-1 {
+  position: absolute;
+  left: 350px;
+  top: 400px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .stick-left-zone-1 {
+  display: block;
+}
+
+.stick-left-zone-2 {
+  position: absolute;
+  left: 400px;
+  top: 400px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .stick-left-zone-2 {
+  display: block;
+}
+
+.stick-left-zone-3 {
+  position: absolute;
+  left: 300px;
+  top: 450px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .stick-left-zone-3 {
+  display: block;
+}
+
+.stick-left-zone-4 {
+  position: absolute;
+  left: 350px;
+  top: 450px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .stick-left-zone-4 {
+  display: block;
+}
+
+.stick-left-zone-5 {
+  position: absolute;
+  left: 400px;
+  top: 450px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .stick-left-zone-5 {
+  display: block;
+}
+
+.stick-right-zone-0 {
+  position: absolute;
+  left: 550px;
+  top: 400px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .stick-right-zone-0 {
+  display: block;
+}
+
+.stick-right-zone-1 {
+  position: absolute;
+  left: 600px;
+  top: 400px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .stick-right-zone-1 {
+  display: block;
+}
+
+.stick-right-zone-2 {
+  position: absolute;
+  left: 650px;
+  top: 400px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .stick-right-zone-2 {
+  display: block;
+}
+
+.stick-right-zone-3 {
+  position: absolute;
+  left: 550px;
+  top: 450px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .stick-right-zone-3 {
+  display: block;
+}
+
+.stick-right-zone-4 {
+  position: absolute;
+  left: 600px;
+  top: 450px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .stick-right-zone-4 {
+  display: block;
+}
+
+.stick-right-zone-5 {
+  position: absolute;
+  left: 650px;
+  top: 450px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .stick-right-zone-5 {
+  display: block;
+}
+
+.trigger-left-zone-0 {
+  position: absolute;
+  left: 250px;
+  top: 100px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .trigger-left-zone-0 {
+  display: block;
+}
+
+.trigger-left-zone-1 {
+  position: absolute;
+  left: 300px;
+  top: 100px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .trigger-left-zone-1 {
+  display: block;
+}
+
+.trigger-left-zone-2 {
+  position: absolute;
+  left: 250px;
+  top: 150px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .trigger-left-zone-2 {
+  display: block;
+}
+
+.trigger-left-zone-3 {
+  position: absolute;
+  left: 300px;
+  top: 150px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .trigger-left-zone-3 {
+  display: block;
+}
+
+.trigger-right-zone-0 {
+  position: absolute;
+  left: 650px;
+  top: 100px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .trigger-right-zone-0 {
+  display: block;
+}
+
+.trigger-right-zone-1 {
+  position: absolute;
+  left: 700px;
+  top: 100px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .trigger-right-zone-1 {
+  display: block;
+}
+
+.trigger-right-zone-2 {
+  position: absolute;
+  left: 650px;
+  top: 150px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .trigger-right-zone-2 {
+  display: block;
+}
+
+.trigger-right-zone-3 {
+  position: absolute;
+  left: 700px;
+  top: 150px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .trigger-right-zone-3 {
+  display: block;
+}
+
+.button-start-zone-0 {
+  position: absolute;
+  left: 300px;
+  top: 250px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .button-start-zone-0 {
+  display: block;
+}
+
+.button-start-zone-1 {
+  position: absolute;
+  left: 350px;
+  top: 250px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .button-start-zone-1 {
+  display: block;
+}
+
+.button-start-zone-2 {
+  position: absolute;
+  left: 300px;
+  top: 300px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .button-start-zone-2 {
+  display: block;
+}
+
+.button-start-zone-3 {
+  position: absolute;
+  left: 350px;
+  top: 300px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .button-start-zone-3 {
+  display: block;
+}
+
+.button-select-zone-0 {
+  position: absolute;
+  left: 600px;
+  top: 250px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .button-select-zone-0 {
+  display: block;
+}
+
+.button-select-zone-1 {
+  position: absolute;
+  left: 650px;
+  top: 250px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .button-select-zone-1 {
+  display: block;
+}
+
+.button-select-zone-2 {
+  position: absolute;
+  left: 600px;
+  top: 300px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .button-select-zone-2 {
+  display: block;
+}
+
+.button-select-zone-3 {
+  position: absolute;
+  left: 650px;
+  top: 300px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  display: none;
+}
+
+.pressed .button-select-zone-3 {
+  display: block;
 }
