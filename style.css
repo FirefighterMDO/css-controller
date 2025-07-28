@@ -1,9 +1,18 @@
 
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: transparent;
+}
+
 .controller {
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 1000px;
   height: 1000px;
-  background: url('controller.png') no-repeat center center;
+  background: url('controller.png') no-repeat top left;
   background-size: contain;
 }
 
