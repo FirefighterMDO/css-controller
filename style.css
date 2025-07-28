@@ -15,10 +15,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .button-a-zone-0 {
   display: block;
 }
 
@@ -30,10 +26,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .button-a-zone-1 {
   display: block;
 }
 
@@ -45,10 +37,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .button-a-zone-2 {
   display: block;
 }
 
@@ -60,10 +48,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .button-a-zone-3 {
   display: block;
 }
 
@@ -75,10 +59,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .button-b-zone-0 {
   display: block;
 }
 
@@ -90,10 +70,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .button-b-zone-1 {
   display: block;
 }
 
@@ -105,10 +81,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .button-b-zone-2 {
   display: block;
 }
 
@@ -120,10 +92,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .button-b-zone-3 {
   display: block;
 }
 
@@ -135,10 +103,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .button-x-zone-0 {
   display: block;
 }
 
@@ -150,10 +114,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .button-x-zone-1 {
   display: block;
 }
 
@@ -165,10 +125,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .button-x-zone-2 {
   display: block;
 }
 
@@ -180,10 +136,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .button-x-zone-3 {
   display: block;
 }
 
@@ -195,10 +147,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .button-y-zone-0 {
   display: block;
 }
 
@@ -210,10 +158,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .button-y-zone-1 {
   display: block;
 }
 
@@ -225,10 +169,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .button-y-zone-2 {
   display: block;
 }
 
@@ -240,10 +180,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .button-y-zone-3 {
   display: block;
 }
 
@@ -255,10 +191,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .dpad-up-zone-0 {
   display: block;
 }
 
@@ -270,10 +202,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .dpad-up-zone-1 {
   display: block;
 }
 
@@ -285,10 +213,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .dpad-down-zone-0 {
   display: block;
 }
 
@@ -300,10 +224,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .dpad-down-zone-1 {
   display: block;
 }
 
@@ -315,10 +235,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .dpad-right-zone-0 {
   display: block;
 }
 
@@ -330,10 +246,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .dpad-right-zone-1 {
   display: block;
 }
 
@@ -345,10 +257,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .dpad-left-zone-0 {
   display: block;
 }
 
@@ -360,10 +268,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .dpad-left-zone-1 {
   display: block;
 }
 
@@ -375,10 +279,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .stick-left-zone-0 {
   display: block;
 }
 
@@ -390,10 +290,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .stick-left-zone-1 {
   display: block;
 }
 
@@ -405,10 +301,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .stick-left-zone-2 {
   display: block;
 }
 
@@ -420,10 +312,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .stick-left-zone-3 {
   display: block;
 }
 
@@ -435,10 +323,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .stick-left-zone-4 {
   display: block;
 }
 
@@ -450,10 +334,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .stick-left-zone-5 {
   display: block;
 }
 
@@ -465,10 +345,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .stick-right-zone-0 {
   display: block;
 }
 
@@ -480,10 +356,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .stick-right-zone-1 {
   display: block;
 }
 
@@ -495,10 +367,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .stick-right-zone-2 {
   display: block;
 }
 
@@ -510,10 +378,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .stick-right-zone-3 {
   display: block;
 }
 
@@ -525,10 +389,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .stick-right-zone-4 {
   display: block;
 }
 
@@ -540,10 +400,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .stick-right-zone-5 {
   display: block;
 }
 
@@ -555,10 +411,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .trigger-left-zone-0 {
   display: block;
 }
 
@@ -570,10 +422,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .trigger-left-zone-1 {
   display: block;
 }
 
@@ -585,10 +433,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .trigger-left-zone-2 {
   display: block;
 }
 
@@ -600,10 +444,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .trigger-left-zone-3 {
   display: block;
 }
 
@@ -615,10 +455,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .trigger-right-zone-0 {
   display: block;
 }
 
@@ -630,10 +466,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .trigger-right-zone-1 {
   display: block;
 }
 
@@ -645,10 +477,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .trigger-right-zone-2 {
   display: block;
 }
 
@@ -660,10 +488,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .trigger-right-zone-3 {
   display: block;
 }
 
@@ -675,10 +499,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .button-start-zone-0 {
   display: block;
 }
 
@@ -690,10 +510,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .button-start-zone-1 {
   display: block;
 }
 
@@ -705,10 +521,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .button-start-zone-2 {
   display: block;
 }
 
@@ -720,10 +532,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .button-start-zone-3 {
   display: block;
 }
 
@@ -735,10 +543,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .button-select-zone-0 {
   display: block;
 }
 
@@ -750,10 +554,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .button-select-zone-1 {
   display: block;
 }
 
@@ -765,10 +565,6 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .button-select-zone-2 {
   display: block;
 }
 
@@ -780,9 +576,5 @@
   height: 50px;
   background-color: rgba(255, 0, 0, 0.3);
   pointer-events: none;
-  display: none;
-}
-
-.pressed .button-select-zone-3 {
   display: block;
 }
